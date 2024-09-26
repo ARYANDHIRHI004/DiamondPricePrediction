@@ -1,0 +1,13 @@
+prefix=D:/aryan/Aryancoding/AI Projects/Diamond_predictor/venv/Library
+exec_prefix=D:/aryan/Aryancoding/AI Projects/Diamond_predictor/venv/Library
+libdir=D:/aryan/Aryancoding/AI Projects/Diamond_predictor/venv/Library/lib
+sharedlibdir=D:/aryan/Aryancoding/AI Projects/Diamond_predictor/venv/Library/lib
+includedir=D:/aryan/Aryancoding/AI Projects/Diamond_predictor/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
