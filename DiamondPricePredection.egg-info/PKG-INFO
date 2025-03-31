@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: DiamondPricePredection
+Version: 0.0.0
+Author: Aryan Dhirhi
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: flask
