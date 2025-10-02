@@ -18,7 +18,7 @@ class DataIngestionConfig:
 ## create a class for data ingestion
 class DataIngestion:
     def __init__(self):
-        self.ingestion_config=DataIngestionConfig
+        self.ingestion_config=DataIngestionConfig()
     
     def initiate_data_ingestion(self):
         logging.info('Data Ingestion methods Starts')
